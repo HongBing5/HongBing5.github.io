@@ -4,8 +4,11 @@
     <title>个人博客搭建</title>
     <url>/2020/03/19/hello-world/</url>
     <content><![CDATA[<p>快速、简洁且高效的博客框架: <a class="link"   href="https://hexo.io/zh-cn/" >Hexo  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的基本使用，在这之前首先你需要有 <a class="link"   href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 没有的话可以点击链接自行下载</p>
-<h2 id="开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>开始搭建属于自己的 <a class="link"   href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>先在用 <a class="link"   href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块 （也可以尝试用：yarn）</p>
+<h2 id="和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="和我一起开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>和我一起开始搭建属于自己的 <a class="link"   href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>首先你需要在 <a class="link"   href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+
+<p>或者使用 yarn 命令也是可以的 </p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">yarn add hexo-cli -g</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="第二步：初始化"><a href="#第二步：初始化" class="headerlink" title="第二步：初始化"></a>第二步：初始化</h3><p>在你要创建博客的目录文件夹下，初始化 <strong>blog</strong> 文件资源，创建 <strong>blog</strong> 文件夹（以后的资源文件全部在这个里面）</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure></div>

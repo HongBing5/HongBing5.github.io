@@ -145,35 +145,16 @@
                         
                             <li class="menu-item">
                                 <!-- Menu -->
-                                <a class="has-dropdown" 
-                                    href="#" onClick="return false;">
+                                <a class="" 
+                                    href="/about"  >
                                     
                                         
                                             <i class="fa-regular fa-user"></i>
                                         
-                                        关于&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                        关于
                                     
                                 </a>
                                 <!-- Submenu -->
-                                
-                                    <ul class="sub-menu">
-                                    
-                                        <li>
-                                        <a href="/about">ME
-                                        </a>
-                                        </li>
-                                    
-                                        <li>
-                                        <a target="_blank" rel="noopener" href="https://github.com/EvanNotFound/hexo-theme-redefine">GITHUB
-                                        </a>
-                                        </li>
-                                    
-                                        <li>
-                                        <a href="/17716575530">CONTACT
-                                        </a>
-                                        </li>
-                                    
-                                    </ul>
                                 
                             </li>
                     
@@ -232,31 +213,17 @@
             
                 
                     <li class="drawer-menu-item flex-center">
-                        <a class="has-dropdown" 
-                        href="#" onClick="return false;">
-                            
+                        <a class="" 
+                        href="/about"  >
+                             
                                 
                                     <i class="fa-regular fa-user"></i>
                                 
-                                关于&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                关于
                             
                         </a>
                     </li>
                     <!-- Submenu -->
-                              
-                        
-                            <li class="dropdown-item flex-center">
-                                <a class="dropdown-item" href="/about">ME</a>
-                            </li>
-                        
-                            <li class="dropdown-item flex-center">
-                                <a class="dropdown-item" target="_blank" rel="noopener" href="https://github.com/EvanNotFound/hexo-theme-redefine">GITHUB</a>
-                            </li>
-                        
-                            <li class="dropdown-item flex-center">
-                                <a class="dropdown-item" href="/17716575530">CONTACT</a>
-                            </li>
-                        
                     
             
 
@@ -312,8 +279,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-16 22:16:18</span>
-            <span class="mobile">2023-03-16 22:16</span>
+            <span class="pc">2023-03-17 10:36:25</span>
+            <span class="mobile">2023-03-17 10:36</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -349,8 +316,11 @@
 
             <div class="article-content markdown-body">
                 <p>快速、简洁且高效的博客框架: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" >Hexo  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的基本使用，在这之前首先你需要有 <a class="link"   target="_blank" rel="noopener" href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 没有的话可以点击链接自行下载</p>
-<h2 id="开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>开始搭建属于自己的 <a class="link"   target="_blank" rel="noopener" href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>先在用 <a class="link"   target="_blank" rel="noopener" href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块 （也可以尝试用：yarn）</p>
+<h2 id="和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="和我一起开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>和我一起开始搭建属于自己的 <a class="link"   target="_blank" rel="noopener" href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>首先你需要在 <a class="link"   target="_blank" rel="noopener" href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+
+<p>或者使用 yarn 命令也是可以的 </p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-cli -g</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="第二步：初始化"><a href="#第二步：初始化" class="headerlink" title="第二步：初始化"></a>第二步：初始化</h3><p>在你要创建博客的目录文件夹下，初始化 <strong>blog</strong> 文件资源，创建 <strong>blog</strong> 文件夹（以后的资源文件全部在这个里面）</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure></div>
@@ -420,7 +390,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">个人博客搭建</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%90%A7-o-%E2%96%BD-%E2%94%9B"><span class="nav-text">开始搭建属于自己的 个人博客  吧 o(^▽^)┛</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E4%B8%8B%E8%BD%BD"><span class="nav-text">第一步：下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-text">第二步：初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%9C%A8-blog-%E4%B8%8B-%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-text">第三步：在 blog 下 初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E5%AE%89%E8%A3%85-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85"><span class="nav-text">第四步：安装 第三方包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E8%BF%90%E8%A1%8C"><span class="nav-text">第五步：运行</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%90%A7-o-%E2%96%BD-%E2%94%9B"><span class="nav-text">和我一起开始搭建属于自己的 个人博客  吧 o(^▽^)┛</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E4%B8%8B%E8%BD%BD"><span class="nav-text">第一步：下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-text">第二步：初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%9C%A8-blog-%E4%B8%8B-%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-text">第三步：在 blog 下 初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E5%AE%89%E8%A3%85-%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85"><span class="nav-text">第四步：安装 第三方包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E8%BF%90%E8%A1%8C"><span class="nav-text">第五步：运行</span></a></li></ol></li></ol>
 
     </div>
 </div>
