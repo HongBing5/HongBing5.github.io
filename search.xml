@@ -33,8 +33,11 @@
                       alt="Hexo_default"
                 ></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>日志</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -74,8 +77,11 @@
  </div></div>
 
 <h3 id="更多详细配置参考👉-官方文档"><a href="#更多详细配置参考👉-官方文档" class="headerlink" title="更多详细配置参考👉: 官方文档"></a>更多详细配置参考👉: <a class="link"   href="https://redefine-docs.ohevan.com/docs/intro" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>日志</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
