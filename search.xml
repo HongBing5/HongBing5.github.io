@@ -151,15 +151,12 @@
       </tags>
   </entry>
   <entry>
-    <title>科学上网 Clash 的使用</title>
+    <title>科学上网</title>
     <url>/2023/03/23/Clash%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><p>因为平常需要学习&#x2F;工作，我们很多时候需要 去看 YouTube  Facebook 这样的网站但是国内很难访问，这里我记录一下自己使用的方式供大家学习 (❁´◡&#96;❁)</p>
-<p>首先使用的软件为 <strong>🐱Clash</strong>  (这里的先声明一下这个软件不收费）</p>
-<p>（但是，里面的节点是收费的，价格还是比较合适的，当然你也可以考虑借用朋友的节点，或者有能力的自己搭建)</p>
+    <content><![CDATA[<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><p>因为平常需要学习&#x2F;工作，我们很多时候需要 去看 (油管、脸书） 这样的网站但是国内很难访问，这里我记录一下自己使用的方式供大家学习 (❁´◡&#96;❁)</p>
+<p>首先使用的软件为 <strong>🐱Clash</strong>  (这个软件不收费）</p>
 <h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p><strong>我的网盘链接</strong>：</p>
-<p>(以目前大部分电脑的配置对接第①个链接，如果你的电脑旧一些可以下第②个)</p>
-<p>① 3月23日的最新版： <a class="link"   href="https://pan.baidu.com/s/1dQE93lPWxHhv8qmPlvIElA?pwd=n42y" >https://pan.baidu.com/s/1dQE93lPWxHhv8qmPlvIElA?pwd=n42y <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> </p>
-<p>② 最低配置版本+说明书： <a class="link"   href="https://pan.baidu.com/s/10-Fz6asSzz79MmiYT-lL9Q?pwd=h88i" >https://pan.baidu.com/s/10-Fz6asSzz79MmiYT-lL9Q?pwd=h88i <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> </p>
+<p>3月23日的最新版： <a class="link"   href="https://pan.baidu.com/s/1dQE93lPWxHhv8qmPlvIElA?pwd=n42y" >https://pan.baidu.com/s/1dQE93lPWxHhv8qmPlvIElA?pwd=n42y <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> </p>
 <h3 id="第二部：安装"><a href="#第二部：安装" class="headerlink" title="第二部：安装"></a>第二部：安装</h3><p>看着文字来就行，最好不要安装在 <code>C盘</code>，然后就是无脑：<code>下一步</code> </p>
 <h3 id="第三步：配置"><a href="#第三步：配置" class="headerlink" title="第三步：配置"></a>第三步：配置</h3><ol>
 <li><p>在 <code>Profiles</code> 的上面有：Download from a URL 的输入框可以下载你获取到的节点 </p>
@@ -177,7 +174,7 @@
 <p>在 <code>Proxies</code>  的 <code>Global</code> 下选择 <code>DIRECT</code>节点，确保它是被选中的就可以了</p>
  </div></div>
 
-<h3 id="购买节点"><a href="#购买节点" class="headerlink" title="购买节点"></a>购买节点</h3><p>本人推荐：<a class="link"   href="https://feiniaoyun.info/#/register?code=Yw1aXKsm" >🕊️飞鸟云 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  没有注册的朋友帮我填写个邀请码呗 (❤️´艸｀❤️)</p>
+<h3 id="购买"><a href="#购买" class="headerlink" title="购买"></a>购买</h3><p>本人推荐：<a class="link"   href="https://feiniaoyun.info/#/register?code=Yw1aXKsm" >🕊️飞鸟云 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  没有注册的朋友帮我填写个邀请码呗(✿◕‿◕✿)</p>
 ]]></content>
       <categories>
         <category>软件</category>
