@@ -229,7 +229,13 @@
 <li><p>然后就可以进入 SD 的 UI 界面了</p>
 </li>
 </ol>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他:"></a>其他:</h3><p>所需要的模型和Lora可以自己去 Civitai 下载</p>
+<h3 id="附加："><a href="#附加：" class="headerlink" title="附加："></a>附加：</h3><p>在附加功能页面，有一个图片放大的功能，可以单张放大也可以多张批量放大。</p>
+<p><strong>单张图像放大</strong>：只需要注意下面两项参数：</p>
+<ol>
+<li>缩放比例(默认4，基本就够用了)</li>
+<li>Upscaler1(算法，基本: <strong>R-ESRGAN 4X+</strong> 其他自己可以随便尝试)</li>
+</ol>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他:"></a>其他:</h3><p>所需要的模型和Lora可以自己去 Civitai 看看</p>
 <p>推荐B站 UP主 (也是这个UI界面的创作者) ：<a class="link"   href="https://space.bilibili.com/12566101" >https://space.bilibili.com/12566101 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
