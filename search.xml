@@ -147,7 +147,7 @@
 <p>推荐B站 UP主 (也是这个UI界面的创作者) ：<a class="link"   href="https://space.bilibili.com/12566101" >https://space.bilibili.com/12566101 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
-        <category>软件</category>
+        <category>AI绘画</category>
       </categories>
       <tags>
         <tag>笔记</tag>
@@ -256,10 +256,15 @@
 <div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Windows 方法</p>
 </div>
 
-<p>按下键盘上WIN+R键，打开运行窗口；</p>
-<p>运行窗口中输入CMD，回车，打开命令行窗口；</p>
-<p>在CMD窗口中输入：netsh wlan show profiles    执行后，会列出已连接过的WiFi名称；</p>
-<p>接着输入命令：netsh wlan show profiles name&#x3D;”这里填WIFI名称” key&#x3D;clear，执行后就会显示密码。</p>
+<p>按下键盘上WIN+R键，打开运行窗口；运行窗口中输入CMD，回车，打开命令行窗口；</p>
+<p>在CMD窗口中输入：</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles   </span><br></pre></td></tr></table></figure></div>
+
+<p>执行后，会列出已连接过的WiFi名称；</p>
+<p>接着输入命令：</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles name=&quot;这里填WIFI名称&quot; key=clear</span><br></pre></td></tr></table></figure></div>
+
+<p>执行后就会显示密码。</p>
 <div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Android 方法</p>
 </div>
 
@@ -272,6 +277,33 @@
       </categories>
       <tags>
         <tag>技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Telegram（TG/电报）</title>
+    <url>/2023/03/30/telegram%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h1><p><strong>🚀网站首页</strong>：<a class="link"   href="https://telegram.org/" >https://telegram.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Telegram是一款跨平台的<a class="link"   href="https://baike.baidu.com/item/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E8%BD%AF%E4%BB%B6/9556908?fromModule=lemma_inlink" >即时通讯软件 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>官方链接：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">Win版</span><br><span class="line">https://desktop.telegram.org/</span><br><span class="line">Mac版</span><br><span class="line">https://macos.telegram.org/</span><br><span class="line">安卓手机：</span><br><span class="line">https://telegram.org/android</span><br></pre></td></tr></table></figure></div>
+
+
+<p>本人网盘链接(3月win版安装包)：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">https://wwzv.lanzoue.com/iFcbn0rjfakh</span><br><span class="line"># 密码:6osj</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="安装使用"><a href="#安装使用" class="headerlink" title="安装使用"></a>安装使用</h2><p>无脑 <code>next</code> ，记得选择合适的安装路径</p>
+<p>安装完成，后点击 <code>Start Messaging</code> 用手机扫描登录</p>
+<p>如果不习惯英语界面的话，随便找一个工具人然后给他发送下面的消息：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">https://t.me/setlanguage/classic-zh-cn</span><br></pre></td></tr></table></figure></div>
+
+<p>然后点击发送的这条消息链接就就好弹出对话框</p>
+<p>点击 <code>change</code> 就它就会自动重启，然后就好展示中文界面了</p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
