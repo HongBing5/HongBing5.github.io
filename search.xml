@@ -102,6 +102,7 @@
       </categories>
       <tags>
         <tag>技巧</tag>
+        <tag>网络</tag>
       </tags>
   </entry>
   <entry>
@@ -282,21 +283,19 @@
   <entry>
     <title>Telegram（TG/电报）</title>
     <url>/2023/03/30/telegram%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h1><p><strong>🚀网站首页</strong>：<a class="link"   href="https://telegram.org/" >https://telegram.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>Telegram是一款跨平台的<a class="link"   href="https://baike.baidu.com/item/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E8%BD%AF%E4%BB%B6/9556908?fromModule=lemma_inlink" >即时通讯软件 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件</p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>官方链接：</p>
+    <content><![CDATA[<h2 id="🚀官方首页：https-telegram-org"><a href="#🚀官方首页：https-telegram-org" class="headerlink" title="🚀官方首页：https://telegram.org/"></a><strong>🚀官方首页</strong>：<a class="link"   href="https://telegram.org/" >https://telegram.org/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h2><p>Telegram是一款跨平台的<a class="link"   href="https://baike.baidu.com/item/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E8%BD%AF%E4%BB%B6/9556908?fromModule=lemma_inlink" >即时通讯软件 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><strong>🧶官方链接</strong>(打不开的可以选择网盘链接)：</p>
 <div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">Win版</span><br><span class="line">https://desktop.telegram.org/</span><br><span class="line">Mac版</span><br><span class="line">https://macos.telegram.org/</span><br><span class="line">安卓手机：</span><br><span class="line">https://telegram.org/android</span><br></pre></td></tr></table></figure></div>
 
-
-<p>本人网盘链接(3月win版安装包)：</p>
+<p><strong>🧷网盘链接</strong>(Windows版)：</p>
 <div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">https://wwzv.lanzoue.com/iFcbn0rjfakh</span><br><span class="line"># 密码:6osj</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="安装使用"><a href="#安装使用" class="headerlink" title="安装使用"></a>安装使用</h2><p>无脑 <code>next</code> ，记得选择合适的安装路径</p>
+<h3 id="安装-汉化"><a href="#安装-汉化" class="headerlink" title="安装(汉化)"></a>安装(汉化)</h3><p>无脑 <code>next</code> ，记得选择合适的安装路径</p>
 <p>安装完成，后点击 <code>Start Messaging</code> 用手机扫描登录</p>
 <p>如果不习惯英语界面的话，随便找一个工具人然后给他发送下面的消息：</p>
 <div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line">https://t.me/setlanguage/classic-zh-cn</span><br></pre></td></tr></table></figure></div>
 
-<p>然后点击发送的这条消息链接就就好弹出对话框</p>
+<p>然后点击发送的这条消息链接，就会弹出对话框</p>
 <p>点击 <code>change</code> 就它就会自动重启，然后就好展示中文界面了</p>
 ]]></content>
       <categories>
@@ -304,6 +303,42 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>带朋友旅行世界</title>
+    <url>/2023/03/31/%E5%B8%A6%E6%9C%8B%E5%8F%8B%E6%97%85%E8%A1%8C%E4%B8%96%E7%95%8C/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>我们身边不是所有人都会使用网络技巧，同时也不是所有人的手机都有对应的工具，那么我们可以在已经会魔法的基础上，带着别人一起坐上魔法的扫把去旅行世界🕊️</p>
+<h3 id="1-预备工作"><a href="#1-预备工作" class="headerlink" title="1. 预备工作"></a>1. 预备工作</h3><p>首先这个操作需要 <strong>Clash</strong> 的预备环境，如果没有的话可以参考 我的另一篇文章 《旅行世界》</p>
+<p>然后你就有 <strong>Clash</strong> 了😎</p>
+<h3 id="2-设置网络"><a href="#2-设置网络" class="headerlink" title="2. 设置网络"></a>2. 设置网络</h3><div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>让你的电脑和手机保证链接在同一个无线网络下</p>
+</div>
+
+<p>在 <strong>clash</strong> 的客户端 <code>左边的主页(General)</code> 下开启 <code>允许局域网(Allow LAN)</code> 🟢  </p>
+<p>点击 <code>允许局域网(Allow LAN)</code> 右边一点点的 类似分享的一个图标 就会弹出一些信息，如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">WLAN</span><br><span class="line">Address:  192.168.74</span><br><span class="line">Netmask:  225.225.225.0(24)</span><br><span class="line">MAC:      70:66:55:98:08:bb</span><br><span class="line">Loopback Pseudo-Interface 1</span><br><span class="line">Address:  127.0.0.1</span><br><span class="line">Netmask:  255.0.0.0 (8)</span><br><span class="line">MAC:      00:00:00:00:00:00</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>我们只需要记住 WLAN 的 Address：<strong>192.168.74</strong>  (你的数字可能会和我的不一样)</li>
+<li>还有 <code>端口(Port)</code> 的数字：<strong>7890</strong></li>
+</ul>
+<h3 id="3-选择一个路线"><a href="#3-选择一个路线" class="headerlink" title="3. 选择一个路线"></a>3. 选择一个路线</h3><p>在<code>Proxies</code> 选择一个标有 <code>UDP</code> 的路线</p>
+<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>让你的电脑和手机保证链接在同一个无线网络下</p>
+</div>
+
+<h3 id="4-手机链接"><a href="#4-手机链接" class="headerlink" title="4. 手机链接"></a>4. 手机链接</h3><p>打开手机的wifi设置，并且找到当前链接的wifi，点击▶️符好或者❗(<em>不同手机的标识可能不一样</em>)</p>
+<p>往下拖动找到  <code>代理</code> 选项 一般是默认是选择：<strong>无</strong> </p>
+<p>我们把他切换为 <strong>手动</strong> 就会弹出一下需要的配置（填入第二步需要记得两点）:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">主机名：192.168.74</span><br><span class="line">端口：7890</span><br></pre></td></tr></table></figure></div>
+
+<p>然后记得点击保存，一般在右上角，</p>
+<h3 id="5-你就可以旅行了🎉"><a href="#5-你就可以旅行了🎉" class="headerlink" title="5. 你就可以旅行了🎉"></a>5. 你就可以旅行了🎉</h3>]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+        <tag>网络</tag>
       </tags>
   </entry>
 </search>
