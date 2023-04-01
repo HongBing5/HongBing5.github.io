@@ -10,18 +10,18 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2023/03/24/diffusion/"/>
+    <link rel="canonical" href="http://example.com/archives/2023/04/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Stable Diffusion">
+    <meta property="og:title" content="HB">
     <meta property="og:description" content="用来让小白练手">
-    <meta property="og:url" content="http://example.com2023/03/24/Diffusion/">
+    <meta property="og:url" content="http://example.comarchives/2023/04/index.html">
     
     <meta property="og:site_name" content="红包小站">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Stable Diffusion">
+    <meta name="twitter:title" content="HB">
     <meta name="twitter:description" content="用来让小白练手">
     <meta name="twitter:image" content="https://foruda.gitee.com/avatar/1677169304452410275/9257395_iyfhongbing_1636267631.png!avatar200">
     <!--- Icon Part-->
@@ -32,7 +32,7 @@
     
     <title>
         
-            Stable Diffusion -
+            归档: 2023/4 -
         
         红包小站
     </title>
@@ -166,7 +166,7 @@
                         
                             <li class="menu-item">
                                 <!-- Menu -->
-                                <a class="" 
+                                <a class="active" 
                                     href="/archives"  >
                                     
                                         
@@ -279,7 +279,7 @@
             
                 
                     <li class="drawer-menu-item flex-center">
-                        <a class="" 
+                        <a class="active" 
                         href="/archives"  >
                              
                                 
@@ -334,239 +334,78 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="post-page-container">
-        <div class="article-content-container">
-
-            
-             
-                <div class="article-title">       
-                    <img src="https://w.wallhaven.cc/full/9d/wallhaven-9dzko8.png" alt="Stable Diffusion" />
-                    <h1 class="article-title-cover">Stable Diffusion</h1>
-                </div>
-            
-                
-            
-
-            
-                <div class="article-header">
-                    <div class="avatar">
-                        <img src="https://foruda.gitee.com/avatar/1677169304452410275/9257395_iyfhongbing_1636267631.png!avatar200">
-                    </div>
-                    <div class="info">
-                        <div class="author">
-                            <span class="name">Hong Bing</span>
-                            
-                                <span class="author-label">Lv2</span>
-                            
-                        </div>
-                        <div class="meta-info">
-                            <div class="article-meta-info">
-    <span class="article-date article-meta-item">
-        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2023-03-24 08:48:38</span>
-        <span class="mobile">2023-03-24 08:48</span>
-        <span class="hover-info">创建</span>
-    </span>
-    
-        <span class="article-date article-meta-item">
-            <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-30 07:50:27</span>
-            <span class="mobile">2023-03-30 07:50</span>
-            <span class="hover-info">更新</span>
-        </span>
-    
-
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/categories/AI%E7%BB%98%E7%94%BB/">AI绘画</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
-    
-    
-        <span class="article-tags article-meta-item">
-            <i class="fa-regular fa-tags"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
-    
-
-    
-    
-        <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-file-word"></i>&nbsp;<span>510 字</span>
-        </span>
-    
-    
-        <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
-        </span>
-    
-    
-        <span class="article-pv article-meta-item">
-            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
-        </span>
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            
-
-            <div class="article-content markdown-body">
-                <h2 id="AI-绘图的基本使用"><a href="#AI-绘图的基本使用" class="headerlink" title="AI 绘图的基本使用"></a>AI 绘图的基本使用</h2><p>目前 AI 绘图来说, <strong>Stable Diffusion</strong> 感觉应该是最好用的了，下文我会用 <strong>SD</strong> 来代称 Stable Diffusion 。</p>
-<p>只要你电脑配置可以，画一些你能想象到的不错的图片，还是希望蛮大的 &lt;(￣︶￣)↗[GO!]</p>
-<h3 id="前期需要软件有三个："><a href="#前期需要软件有三个：" class="headerlink" title="前期需要软件有三个："></a>前期需要软件有三个：</h3><ol>
-<li><p>Python3.10.6 版本(版本过低的话是不行的)</p>
-<div class="highlight-container" data-rel="Txt"><figure class="iseeu highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 选上这个就不用配置环境了</span><br><span class="line">Add Python 3.10 to PATH </span><br><span class="line"># 其他基本点下一步就好，最好不要安装在C盘</span><br></pre></td></tr></table></figure></div>
-</li>
-<li><p>VSCode</p>
-<p>正常安装就行，不要安装在 C盘</p>
-</li>
-<li><p>Git </p>
-<div class="highlight-container" data-rel="Txt"><figure class="iseeu highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 遇到这个选项时候</span><br><span class="line">Which editor would you like Git to use ？ </span><br><span class="line"># 选择</span><br><span class="line">Use Visual Studio Code as Git&#x27;s default editor </span><br><span class="line"># 其他基本都是点 下一步</span><br><span class="line"># 最后 Finish 时候 取消View Release Notes 的勾选</span><br></pre></td></tr></table></figure></div></li>
-</ol>
-<h3 id="下载与安装："><a href="#下载与安装：" class="headerlink" title="下载与安装："></a>下载与安装：</h3><ol>
-<li><p>打开链接下载(以下三个是必须文件)：</p>
-<p><a class="link"   target="_blank" rel="noopener" href="https://pan.baidu.com/s/1BkNY8A0h2eOVIQr0jQMLow?pwd=dq7e" >SD软件本体 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  	💾10GB</p>
-<p><a class="link"   target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kXpZy90zrDwZW3SYLqnfTA?pwd=xnxc" >启动器运行依赖 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  	💾54.6MB</p>
-<p><a class="link"   target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Hrgp0o7Aro_Z3pVDwKr7UA?pwd=ngf6" >启动器 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  	💾9.7MB</p>
-</li>
-<li><p>把SD本体那个压缩包解压到指定目录，不要解压到C盘</p>
-</li>
-<li><p>运行启动器依赖，点击下一步，然后就安装完成了</p>
-</li>
-<li><p>解压启动器 到SD目录下</p>
-</li>
-<li><p>去 SD 的根目录点启动器,就会打开启动界面了</p>
-<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 在一键启动后会弹出 txt文本需要我们输入</span><br><span class="line">我已阅读并同意用户协议</span><br><span class="line"># 千万不要写错，或者多打空格，然后保存再关闭，可以按↓建查看</span><br><span class="line"># 然后重新启动再打开</span><br></pre></td></tr></table></figure></div>
-</li>
-<li><p>然后就可以进入 SD 的 UI 界面了</p>
-</li>
-</ol>
-<h3 id="附加："><a href="#附加：" class="headerlink" title="附加："></a>附加：</h3><p>在附加功能页面，有一个图片放大的功能，可以单张放大也可以多张批量放大。</p>
-<p><strong>单张图像放大</strong>：只需要注意下面两项参数：</p>
-<ol>
-<li>缩放比例(默认4，基本就够用了)</li>
-<li>Upscaler1(算法，基本: <strong>R-ESRGAN 4X+</strong> 其他自己可以随便尝试)</li>
-</ol>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他:"></a>其他:</h3><p>所需要的模型和Lora可以自己去 Civitai 看看</p>
-<p>推荐B站 UP主 (也是这个UI界面的创作者) ：<a class="link"   target="_blank" rel="noopener" href="https://space.bilibili.com/12566101" >https://space.bilibili.com/12566101 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-
-            </div>
-
-            
-                <div class="post-copyright-info">
-                    <div class="article-copyright-info-container">
-    <ul>
-        <li>本文标题：Stable Diffusion</li>
-        <li>本文作者：Hong Bing</li>
-        <li>创建时间：2023-03-24 08:48:38</li>
-        <li>
-            本文链接：https://iyfhongbing.gitee.io/2023/03/24/Diffusion/
-        </li>
-        <li>
-            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
-        </li>
-    </ul>
-</div>
-
-                </div>
-            
-
-            
-                <ul class="post-tags-box">
-                    
-                        <li class="tag-item">
-                            <a href="/tags/%E7%AC%94%E8%AE%B0/">#笔记</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            
-
-            <div class="recommended-article">
-  <div class="recommended-article-header">
-    <i class="fa-solid fa-bookmark fa-fw" aria-hidden="true"></i><span>推荐阅读</span>
-  </div>
-  <div class="recommended-article-group"><a class="recommended-article-item" href="/2023/03/23/Clash的使用/" title="旅行世界" rel="bookmark">
-  <img src="https://w.wallhaven.cc/full/nz/wallhaven-nzxq5v.jpg" alt="旅行世界">
-  <span class="title">旅行世界</span>
-</a><a class="recommended-article-item" href="/2023/03/15/hello-world/" title="个人博客搭建" rel="bookmark">
-  <img src="https://w.wallhaven.cc/full/x6/wallhaven-x6zzql.jpg" alt="个人博客搭建">
-  <span class="title">个人博客搭建</span>
-</a><a class="recommended-article-item" href="/2023/03/30/telegram下载和使用/" title="Telegram（TG/电报）" rel="bookmark">
-  <img src="https://w.wallhaven.cc/full/3z/wallhaven-3z7ded.jpg" alt="Telegram（TG/电报）">
-  <span class="title">Telegram（TG/电报）</span>
-</a></div>
-</div>
-
-            
-                <div class="article-nav">
-                    
-                        <div class="article-prev">
-                            <a class="prev"
-                            rel="prev"
-                            href="/2023/03/28/%E6%9F%A5%E7%9C%8BWifi%E5%AF%86%E7%A0%81/"
-                            >
-                                <span class="left arrow-icon flex-center">
-                                    <i class="fa-solid fa-chevron-left"></i>
-                                </span>
-                                <span class="title flex-center">
-                                    <span class="post-nav-title-item">查看Wifi密码</span>
-                                    <span class="post-nav-item">上一篇</span>
-                                </span>
-                            </a>
-                        </div>
-                    
-                    
-                        <div class="article-next">
-                            <a class="next"
-                            rel="next"
-                            href="/2023/03/23/Clash%E7%9A%84%E4%BD%BF%E7%94%A8/"
-                            >
-                                <span class="title flex-center">
-                                    <span class="post-nav-title-item">旅行世界</span>
-                                    <span class="post-nav-item">下一篇</span>
-                                </span>
-                                <span class="right arrow-icon flex-center">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                </span>
-                            </a>
-                        </div>
-                    
-                </div>
-            
-
-
-            
-        </div>
-
+    <div class="archive-container ">
         
-            <div class="toc-content-container">
-                <div class="post-toc-wrap">
-    <div class="post-toc">
-        <div class="toc-title">此页目录</div>
-        <div class="page-title">Stable Diffusion</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#AI-%E7%BB%98%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8"><span class="nav-text">AI 绘图的基本使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E6%9C%9F%E9%9C%80%E8%A6%81%E8%BD%AF%E4%BB%B6%E6%9C%89%E4%B8%89%E4%B8%AA%EF%BC%9A"><span class="nav-text">前期需要软件有三个：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%EF%BC%9A"><span class="nav-text">下载与安装：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%84%E5%8A%A0%EF%BC%9A"><span class="nav-text">附加：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-text">其他:</span></a></li></ol></li></ol>
+<div class="archive-list-container">
+    
+        <section class="archive-item">
+            <div class="archive-item-header">
+                <span class="archive-year">2023</span>
+                <span class="archive-year-post-count">[9]</span>
+            </div>
+            <ul class="article-list">
+              
+              <li class="article-item" date-is='04-01'>
+                <a href="/2023/04/01/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A8%E8%8D%90%E6%8F%92%E4%BB%B6/">
+                  <span class="article-title">浏览器推荐插件</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-31'>
+                <a href="/2023/03/31/%E5%B8%A6%E6%9C%8B%E5%8F%8B%E6%97%85%E8%A1%8C%E4%B8%96%E7%95%8C/">
+                  <span class="article-title">带朋友旅行世界</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-30'>
+                <a href="/2023/03/30/telegram%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8/">
+                  <span class="article-title">Telegram（TG/电报）</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-28'>
+                <a href="/2023/03/28/%E6%9F%A5%E7%9C%8BWifi%E5%AF%86%E7%A0%81/">
+                  <span class="article-title">查看Wifi密码</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-24'>
+                <a href="/2023/03/24/Diffusion/">
+                  <span class="article-title">Stable Diffusion</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-23'>
+                <a href="/2023/03/23/Clash%E7%9A%84%E4%BD%BF%E7%94%A8/">
+                  <span class="article-title">旅行世界</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-20'>
+                <a href="/2023/03/20/B%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/">
+                  <span class="article-title">B站视频下载教程</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-17'>
+                <a href="/2023/03/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98/">
+                  <span class="article-title">Hexo博客搭建之修改主题</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='03-15'>
+                <a href="/2023/03/15/hello-world/">
+                  <span class="article-title">个人博客搭建</span>
+                </a>
+              </li>
+              
+            </ul>
+        </section>
+    
+</div>
 
     </div>
 </div>
-            </div>
-        
-    </div>
-</div>
-
 
                 
 
@@ -653,23 +492,6 @@
         </div>
     </div>
 
-    
-        <div class="post-tools">
-            <div class="post-tools-container">
-    <ul class="tools-list">
-        <!-- TOC aside toggle -->
-        
-            <li class="right-bottom-tools page-aside-toggle">
-                <i class="fa-regular fa-outdent"></i>
-            </li>
-        
-
-        <!-- go comment -->
-        
-    </ul>
-</div>
-
-        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -813,16 +635,6 @@
 
 
 <div class="post-scripts pjax">
-    
-        
-<script src="/js/tools/toc-toggle.js"></script>
-
-<script src="/js/libs/anime.min.js"></script>
-
-<script src="/js/layouts/toc.js"></script>
-
-<script src="/js/plugins/tabs.js"></script>
-
     
 </div>
 
