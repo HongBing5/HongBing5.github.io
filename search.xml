@@ -155,6 +155,47 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建</title>
+    <url>/2023/03/15/hello-world/</url>
+    <content><![CDATA[<p>快速、简洁且高效的博客框架: <a class="link"   href="https://hexo.io/zh-cn/" >Hexo  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的基本使用，在这之前首先你需要有 <a class="link"   href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 没有的话可以点击链接自行下载</p>
+<h2 id="和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="和我一起开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>和我一起开始搭建属于自己的 <a class="link"   href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>首先你需要在 <a class="link"   href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+
+<p>或者使用 yarn 命令也是可以的 </p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">yarn add hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="第二步：初始化"><a href="#第二步：初始化" class="headerlink" title="第二步：初始化"></a>第二步：初始化</h3><p>在你要创建博客的目录文件夹下，初始化 <strong>blog</strong> 文件资源，创建 <strong>blog</strong> 文件夹（以后的资源文件全部在这个里面）</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="第三步：在-blog-下-初始化"><a href="#第三步：在-blog-下-初始化" class="headerlink" title="第三步：在 blog 下 初始化"></a>第三步：在 blog 下 初始化</h3><p>以后的大部分命令，要在这个文件为目录下操作</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="第四步：安装-第三方包"><a href="#第四步：安装-第三方包" class="headerlink" title="第四步：安装 第三方包"></a>第四步：安装 第三方包</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="第五步：运行"><a href="#第五步：运行" class="headerlink" title="第五步：运行"></a>第五步：运行</h3><p>需要在 <strong>blog</strong> 目录下运行命令符，</p>
+<p> <strong>blog</strong> 的运行地址一般在：<a class="link"   href="http://localhost:4000/" >http://localhost:4000/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server </span><br></pre></td></tr></table></figure></div>
+
+<p>该命令可以简化为：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
+
+<p>如果你看到下面这样的页面，那么恭喜你已经成功创建了属于自己的博客了 (只不过这样页面有点小漂亮)</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2023/Hexo_default.png"
+                      alt="Hexo_default"
+                ></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客搭建之修改主题</title>
     <url>/2023/03/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<h2 id="修改博客主题"><a href="#修改博客主题" class="headerlink" title="修改博客主题"></a>修改博客主题</h2><p>相信各位同学也看到了，我们由 Hexo 原生生成的博客样式有点丑，那么我们可以参考官方的主题来美化它 点击👉 <a class="link"   href="https://hexo.io/themes/" >更多主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 查看官方提供给我们的主题，这里有378个主题可以选择，</p>
@@ -203,81 +244,6 @@
       <tags>
         <tag>技巧</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人博客搭建</title>
-    <url>/2023/03/15/hello-world/</url>
-    <content><![CDATA[<p>快速、简洁且高效的博客框架: <a class="link"   href="https://hexo.io/zh-cn/" >Hexo  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的基本使用，在这之前首先你需要有 <a class="link"   href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 没有的话可以点击链接自行下载</p>
-<h2 id="和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛"><a href="#和我一起开始搭建属于自己的-个人博客-吧-o-▽-┛" class="headerlink" title="和我一起开始搭建属于自己的 个人博客 吧 o(^▽^)┛"></a>和我一起开始搭建属于自己的 <a class="link"   href="https://iyfhongbing.gitee.io/" >个人博客 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 吧 o(<em>^▽^</em>)┛</h2><h3 id="第一步：下载"><a href="#第一步：下载" class="headerlink" title="第一步：下载"></a>第一步：下载</h3><p>首先你需要在 <a class="link"   href="https://www.npmjs.com/" >npm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 下载 <a href="">Hexo</a> 所需要的模块</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
-
-<p>或者使用 yarn 命令也是可以的 </p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">yarn add hexo-cli -g</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="第二步：初始化"><a href="#第二步：初始化" class="headerlink" title="第二步：初始化"></a>第二步：初始化</h3><p>在你要创建博客的目录文件夹下，初始化 <strong>blog</strong> 文件资源，创建 <strong>blog</strong> 文件夹（以后的资源文件全部在这个里面）</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="第三步：在-blog-下-初始化"><a href="#第三步：在-blog-下-初始化" class="headerlink" title="第三步：在 blog 下 初始化"></a>第三步：在 blog 下 初始化</h3><p>以后的大部分命令，要在这个文件为目录下操作</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="第四步：安装-第三方包"><a href="#第四步：安装-第三方包" class="headerlink" title="第四步：安装 第三方包"></a>第四步：安装 第三方包</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="第五步：运行"><a href="#第五步：运行" class="headerlink" title="第五步：运行"></a>第五步：运行</h3><p>需要在 <strong>blog</strong> 目录下运行命令符，</p>
-<p> <strong>blog</strong> 的运行地址一般在：<a class="link"   href="http://localhost:4000/" >http://localhost:4000/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server </span><br></pre></td></tr></table></figure></div>
-
-<p>该命令可以简化为：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
-
-<p>如果你看到下面这样的页面，那么恭喜你已经成功创建了属于自己的博客了 (只不过这样页面有点小漂亮)</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/2023/Hexo_default.png"
-                      alt="Hexo_default"
-                ></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>技巧</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>查看Wifi密码</title>
-    <url>/2023/03/28/%E6%9F%A5%E7%9C%8BWifi%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="WIFI密码查看"><a href="#WIFI密码查看" class="headerlink" title="WIFI密码查看"></a>WIFI密码查看</h1><div class="note-large notel-yellow"><div class="notel-title"><p>查看已连接过WiFi密码，再也不用担心忘记密码了</p>
-</div><div class="notel-content"><p>相信各位朋友肯定遇到过，我们在路由器中设置的WIFI密码，由于时间太过久远，忘记了设置的密码是什么。或者是连接了朋友&#x2F;邻居家的WIFI，我们却不知道密码是什么。</p>
-<p>本期视频给大家带来的是查看电脑已连接过WiFi密码，今天的视频主要给大家分享四种方法，两种Windows电脑的方法，两种安卓手机的办法。</p>
- </div></div>
-
-<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Windows 方法</p>
-</div>
-
-<p>按下键盘上WIN+R键，打开运行窗口；运行窗口中输入CMD，回车，打开命令行窗口；</p>
-<p>在CMD窗口中输入：</p>
-<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles   </span><br></pre></td></tr></table></figure></div>
-
-<p>执行后，会列出已连接过的WiFi名称；</p>
-<p>接着输入命令：</p>
-<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles name=&quot;这里填WIFI名称&quot; key=clear</span><br></pre></td></tr></table></figure></div>
-
-<p>执行后就会显示密码。</p>
-<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Android 方法</p>
-</div>
-
-
-<p>依次打开手机设置→WLAN→长按想要知道WiFi密码的名称→截图二维码。</p>
-<p>打开微信并打开扫一扫，扫描本地二维码图片，扫描完成后中间部分就是我们的WIFI密码。</p>
-]]></content>
-      <categories>
-        <category>终端</category>
-      </categories>
-      <tags>
-        <tag>技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +306,40 @@
       <tags>
         <tag>技巧</tag>
         <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查看Wifi密码</title>
+    <url>/2023/03/28/%E6%9F%A5%E7%9C%8BWifi%E5%AF%86%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="WIFI密码查看"><a href="#WIFI密码查看" class="headerlink" title="WIFI密码查看"></a>WIFI密码查看</h1><div class="note-large notel-yellow"><div class="notel-title"><p>查看已连接过WiFi密码，再也不用担心忘记密码了</p>
+</div><div class="notel-content"><p>相信各位朋友肯定遇到过，我们在路由器中设置的WIFI密码，由于时间太过久远，忘记了设置的密码是什么。或者是连接了朋友&#x2F;邻居家的WIFI，我们却不知道密码是什么。</p>
+<p>本期视频给大家带来的是查看电脑已连接过WiFi密码，今天的视频主要给大家分享四种方法，两种Windows电脑的方法，两种安卓手机的办法。</p>
+ </div></div>
+
+<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Windows 方法</p>
+</div>
+
+<p>按下键盘上WIN+R键，打开运行窗口；运行窗口中输入CMD，回车，打开命令行窗口；</p>
+<p>在CMD窗口中输入：</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles   </span><br></pre></td></tr></table></figure></div>
+
+<p>执行后，会列出已连接过的WiFi名称；</p>
+<p>接着输入命令：</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">netsh wlan show profiles name=&quot;这里填WIFI名称&quot; key=clear</span><br></pre></td></tr></table></figure></div>
+
+<p>执行后就会显示密码。</p>
+<div class="note note-warning icon-padding"><i class="note-icon fa-solid fa-exclamation-circle"></i><p>Android 方法</p>
+</div>
+
+
+<p>依次打开手机设置→WLAN→长按想要知道WiFi密码的名称→截图二维码。</p>
+<p>打开微信并打开扫一扫，扫描本地二维码图片，扫描完成后中间部分就是我们的WIFI密码。</p>
+]]></content>
+      <categories>
+        <category>终端</category>
+      </categories>
+      <tags>
+        <tag>技巧</tag>
       </tags>
   </entry>
   <entry>
