@@ -86,7 +86,7 @@
 <p>2.在 <code>Proxies</code>  的 <code>Global</code> 下选择一个你想用链接，点击链接就可以了</p>
 <div class="note-large notel-red"><div class="notel-title"><p>注意</p>
 </div><div class="notel-content"><p><strong>❗注意❗</strong>：</p>
-<p>使用完以需要进行以下操作</p>
+<p>使用完毕以后，需要进行以下操作</p>
 <p>在 <code>Proxies</code>  的 <code>Global</code> 下选择 <code>DIRECT</code>，确保它是被选中的就可以了</p>
  </div></div>
 
@@ -177,7 +177,7 @@
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server </span><br></pre></td></tr></table></figure></div>
 
 <p>该命令可以简化为：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
 
 <p>如果你看到下面这样的页面，那么恭喜你已经成功创建了属于自己的博客了 (只不过这样页面有点小漂亮)</p>
 <p><img  
@@ -202,9 +202,9 @@
 <p>那么我拿本站使用的主题来做一个简单的演示：</p>
 <p><strong>我使用的是</strong>：</p>
 <ul>
-<li><p><a class="link"   href="https://redefine.ohevan.com/" >Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 主题(<em>点击可查看官方文档非常详细</em>)，</p>
+<li><p><a class="link"   href="https://redefine.ohevan.com/" >Theme Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 主题(<em>点击可查看官方文档非常详细</em>)，</p>
 </li>
-<li><p>作者: <a class="link"   href="https://ohevan.com/about" >BliTS <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 是一位加拿大的留学生 感谢 (●’◡’●)</p>
+<li><p>作者: <a class="link"   href="https://ohevan.com/about" >Evan Luo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 是一位加拿大的留学生 感谢 (●’◡’●)</p>
 </li>
 </ul>
 <p><img  
@@ -213,25 +213,38 @@
                      data-src="https://user-images.githubusercontent.com/68590232/224550645-07d6b624-fa7c-40aa-90f8-873c958afa30.png"
                      
                 ></p>
-<h3 id="第一步：安装"><a href="#第一步：安装" class="headerlink" title="第一步：安装"></a>第一步：安装</h3><p>​	在你的博客根目录下运行 以下命令</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine</span><br></pre></td></tr></table></figure></div>
+<h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h3><p>​	在你的博客根目录下运行 以下命令</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="第二部：使用"><a href="#第二部：使用" class="headerlink" title="第二部：使用"></a>第二部：使用</h3><p>安装完成后，在 Hexo 配置文件<code>_config.yml </code> 中将 <code>theme</code> 设置为 <code>Redefine</code>。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span> <span class="comment"># 👈主题名称</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="2-使用"><a href="#2-使用" class="headerlink" title="2.使用"></a>2.使用</h3><p>安装完成后，在 Hexo 配置文件<code>_config.yml </code> 中将 <code>theme</code> 设置为 <code>Redefine</code>。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span> <span class="comment"># 👈主题名称</span></span><br></pre></td></tr></table></figure></div>
 
-<h3 id="创建主题配置文件"><a href="#创建主题配置文件" class="headerlink" title="创建主题配置文件"></a>创建主题配置文件</h3><p>为了日后实现平滑升级，在 <strong>Hexo 根目录中</strong>创建 <code>_config.redefine.yml</code> 并将<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml" >这里的代码 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>全部复制进去保存，以后要更改主题设置就在 <code>_config.redefine.yml</code> 里面更改。</p>
-<div class="note-large notel-red"><div class="notel-title"><p>注意</p>
-</div><div class="notel-content"><ol>
-<li><p><code>config.redefine.yml</code> 永远都会覆盖主题根目录的 <code>_config.yml</code> 设置</p>
-</li>
-<li><p>请不要删除 <code>_config.yml</code> 中的任何项，否则 <code>_config.redefine.yml</code> 不会生效</p>
-</li>
-<li><p>有一些微小的设置在主题对应的文件夹 <code>_config.yml</code> 中设置</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 例如下面的副标题</span></span><br><span class="line"><span class="attr">subtitle:</span> </span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment">#是否开启</span></span><br><span class="line">    <span class="attr">list:</span> [<span class="string">在你一切所行的事上、都要认定他、他必指引你的路。</span>]</span><br></pre></td></tr></table></figure></div></li>
-</ol>
- </div></div>
+<h3 id="3-配置"><a href="#3-配置" class="headerlink" title="3.配置"></a>3.配置</h3><p>为了日后实现平滑升级，在 <strong>Hexo 根目录中</strong>创建 <code>_config.redefine.yml</code> 并将<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml" >这里的代码 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>全部复制进去保存，以后要更改主题设置就在 <code>_config.redefine.yml</code> 里面更改。</p>
+<div class="note note-red"><p><code>config.redefine.yml</code> 永远都会覆盖主题目录下的 <code>_config.yml</code> 设置</p>
+</div>
 
-<h3 id="更多详细配置参考👉-官方文档"><a href="#更多详细配置参考👉-官方文档" class="headerlink" title="更多详细配置参考👉: 官方文档"></a>更多详细配置参考👉: <a class="link"   href="https://redefine-docs.ohevan.com/docs/intro" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3><div class="note-large notel-yellow"><div class="notel-title"><p>提醒</p>
+<h3 id="4-主题背景图"><a href="#4-主题背景图" class="headerlink" title="4.主题背景图"></a>4.主题背景图</h3><p><strong>图库连接地址:<a class="link"   href="https://dynamicwallpaper.club/gallery" >Dynamic Wallpaper Gallery <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></p>
+<p>在这个网站如果直接下载资源的话，图片是<code>HEIC</code>格式，这样的格式一般不好打开，也不好转换出我们对应所需要的昼夜图片，</p>
+<h4 id="我这里分享一个方法："><a href="#我这里分享一个方法：" class="headerlink" title="我这里分享一个方法："></a>我这里分享一个方法：</h4><h5 id="a-对想要下载的图片点击-分享，会弹出对话框，再从对话框点击-复制链接"><a href="#a-对想要下载的图片点击-分享，会弹出对话框，再从对话框点击-复制链接" class="headerlink" title="a. 对想要下载的图片点击 分享，会弹出对话框，再从对话框点击 复制链接"></a>a. 对想要下载的图片点击 <code>分享</code>，会弹出对话框，再从对话框点击 <code>复制链接</code></h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2023/0411-01.png"
+                      alt="img"
+                ></p>
+<h5 id="b-在新的浏览器标签页打开，然后打开开发人员工具-F12-，审查元素，获取当前图片源地址并复制它，"><a href="#b-在新的浏览器标签页打开，然后打开开发人员工具-F12-，审查元素，获取当前图片源地址并复制它，" class="headerlink" title="b. 在新的浏览器标签页打开，然后打开开发人员工具(F12)，审查元素，获取当前图片源地址并复制它，"></a>b. 在新的浏览器标签页打开，然后打开开发人员工具(F12)，审查元素，获取当前图片源地址并复制它，</h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2023/0411-02.png"
+                      alt="img"
+                ></p>
+<h5 id="c-在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始"><a href="#c-在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始" class="headerlink" title="c. 在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始"></a>c. 在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始</h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/2023/0411-03.png"
+                      alt="img"
+                ></p>
+<p><strong>然后你就会获取到对应时间段，不同风格的该主题图片了🎉</strong></p>
+<h3 id="5-更多-官方文档"><a href="#5-更多-官方文档" class="headerlink" title="5.更多: 官方文档"></a>5.更多: <a class="link"   href="https://redefine-docs.ohevan.com/getting-started" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3><div class="note-large notel-yellow"><div class="notel-title"><p>提醒</p>
 </div><div class="notel-content"><p>推荐阅读的 <code>nodejieba</code> 这里配置有点小复杂</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install nodejieba</span><br></pre></td></tr></table></figure></div>
 
