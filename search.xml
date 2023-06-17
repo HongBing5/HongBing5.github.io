@@ -432,4 +432,80 @@
         <tag>技巧</tag>
       </tags>
   </entry>
+  <entry>
+    <title>nvm介绍</title>
+    <url>/2023/06/17/nvm%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<h2 id="nvm-介紹"><a href="#nvm-介紹" class="headerlink" title="nvm 介紹"></a>nvm 介紹</h2><p><a class="link"   href="https://so.csdn.net/so/search?q=node&spm=1001.2101.3001.7020" >Node <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的版本管理器，可以方便地安装&amp;切换不同版本的 node</p>
+<h2 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h2><p>下载地址：<a class="link"   href="https://github.com/coreybutler/nvm-windows/releases" >https://github.com/coreybutler/nvm-windows/releases <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2.安装"></a>2.安装</h2><p>安装需要注意：</p>
+<p>把电脑上面的 node 环境先卸载干净（C:\Users\HB\AppData\Roaming\node 下面的文件也要解决干净）</p>
+<h2 id="3、检查安装是否成功"><a href="#3、检查安装是否成功" class="headerlink" title="3、检查安装是否成功"></a>3、检查安装是否成功</h2><p>在命令行输入 nvm 能出现反应就行 OK 了</p>
+<h2 id="4、😎-使用-nvm"><a href="#4、😎-使用-nvm" class="headerlink" title="4、😎 使用 nvm"></a>4、😎 使用 nvm</h2><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">安装node前配置一下镜像地址</span><br><span class="line"><span class="function">node_mirror: <span class="title">https</span>://<span class="title">npm.taobao.org</span>/<span class="title">mirrors</span>/<span class="title">node</span>/</span></span><br><span class="line"><span class="function"><span class="title">npm_mirror</span>: <span class="title">https</span>://<span class="title">npm.taobao.org</span>/<span class="title">mirrors</span>/<span class="title">npm</span>/</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="1、安装指定的-node-版本"><a href="#1、安装指定的-node-版本" class="headerlink" title="1、安装指定的 node 版本"></a>1、安装指定的 node 版本</h3><p>安装想要的 node 版本，可以通过 以下命令查看可以安装的 node 版本</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">nvm ls available</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2、安装方式"><a href="#2、安装方式" class="headerlink" title="2、安装方式"></a>2、安装方式</h3><p><strong>nvm install 版本号</strong></p>
+<p>CURRENT ：当前最新的版本</p>
+<p>LTS ：稳定版本</p>
+<p>OLD STABLE：旧的稳定</p>
+<p>OLD UNSTABLE：旧的不稳定</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line"># 例如我要安装最新的 <span class="number">20</span>.<span class="number">1</span>.<span class="number">0</span> 的版本（当前稳定的最新版）</span><br><span class="line">nvm install <span class="number">20</span>.<span class="number">1</span>.<span class="number">0</span></span><br><span class="line"></span><br><span class="line"># 我安装了两个</span><br><span class="line">nvm install <span class="number">20</span>.<span class="number">1</span>.<span class="number">0</span></span><br><span class="line">nvm install <span class="number">16</span>.<span class="number">14</span>.<span class="number">1</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="3、显示-node-版本"><a href="#3、显示-node-版本" class="headerlink" title="3、显示 node 版本"></a>3、显示 node 版本</h3><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line"># 使用 nvm ls 或者 nvm list 可以查看安装的不同node版本，*指向的就是当前版本</span><br><span class="line">nvm ls</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="4、切换-node-版本"><a href="#4、切换-node-版本" class="headerlink" title="4、切换 node 版本"></a>4、切换 node 版本</h3><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line"># 例如我要切换到 <span class="number">16</span>.<span class="number">14</span>.<span class="number">1</span> 版本</span><br><span class="line">nvm use <span class="number">16</span>.<span class="number">14</span>.<span class="number">1</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="5-常用指令表"><a href="#5-常用指令表" class="headerlink" title="5.常用指令表"></a>5.常用指令表</h2><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>nvm ls</td>
+<td>列出所有已安装的 node 版本</td>
+</tr>
+<tr>
+<td>nvm ls-remote</td>
+<td>列出所有远程服务器的版本（官方 node version list）</td>
+</tr>
+<tr>
+<td>nvm list available</td>
+<td>显示所有可下载的版本</td>
+</tr>
+<tr>
+<td>nvm install stable</td>
+<td>安装最新版 node</td>
+</tr>
+<tr>
+<td>nvm install 20.1.0</td>
+<td>安装 20.1.0 版本 node</td>
+</tr>
+<tr>
+<td>nvm uninstall 20.1.0</td>
+<td>删除 20.1.0 版本的 node</td>
+</tr>
+<tr>
+<td>nvm use [node 版本号]</td>
+<td>切换到指定版本 node</td>
+</tr>
+<tr>
+<td>nvm current</td>
+<td>当前 node 版本</td>
+</tr>
+<tr>
+<td>nvm alias default [node 版本号]</td>
+<td>设置默认版本</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
 </search>
