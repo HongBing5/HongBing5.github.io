@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://example.com/images/2023/0411-02.png">
 <meta property="og:image" content="http://example.com/images/2023/0411-03.png">
 <meta property="article:published_time" content="2023-03-17T12:16:29.000Z">
-<meta property="article:modified_time" content="2023-04-11T00:10:14.957Z">
+<meta property="article:modified_time" content="2023-06-26T08:59:48.714Z">
 <meta property="article:author" content="Hong Bing">
 <meta property="article:tag" content="技巧">
 <meta property="article:tag" content="笔记">
@@ -405,8 +405,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-04-11 08:10:14</span>
-            <span class="mobile">2023-04-11 08:10</span>
+            <span class="desktop">2023-06-26 16:59:48</span>
+            <span class="mobile">2023-06-26 16:59</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -417,7 +417,7 @@
             <ul>
                 
                     <li>
-                        <a href="/categories/Hexo/">Hexo</a>&nbsp;
+                        <a href="/categories/%E7%BC%96%E7%A8%8B/">编程</a>&nbsp;
                     </li>
                 
             </ul>
@@ -443,7 +443,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>555 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>557 字</span>
         </span>
     
     
@@ -464,7 +464,7 @@
             
 
             <div class="article-content markdown-body">
-                <h2 id="修改博客主题"><a href="#修改博客主题" class="headerlink" title="修改博客主题"></a>修改博客主题</h2><p>相信各位同学也看到了，我们由 Hexo 原生生成的博客样式有点丑，那么我们可以参考官方的主题来美化它 点击👉 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/themes/" >更多主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 查看官方提供给我们的主题，这里有378个主题可以选择，</p>
+                <h2 id="修改博客主题"><a href="#修改博客主题" class="headerlink" title="修改博客主题"></a>修改博客主题</h2><p>相信各位同学也看到了，我们由 Hexo 原生生成的博客样式有点丑，那么我们可以参考官方的主题来美化它 点击 👉 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/themes/" >更多主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 查看官方提供给我们的主题，这里有 378 个主题可以选择，</p>
 <p>那么我拿本站使用的主题来做一个简单的演示：</p>
 <p><strong>我使用的是</strong>：</p>
 <ul>
@@ -479,14 +479,14 @@
                      data-src="https://user-images.githubusercontent.com/68590232/224550645-07d6b624-fa7c-40aa-90f8-873c958afa30.png"
                      
                 ></p>
-<h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h3><p>​	在你的博客根目录下运行 以下命令</p>
+<h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h3><p>​ 在你的博客根目录下运行 以下命令</p>
 <div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="2-使用"><a href="#2-使用" class="headerlink" title="2.使用"></a>2.使用</h3><p>安装完成后，在 Hexo 配置文件<code>_config.yml </code> 中将 <code>theme</code> 设置为 <code>Redefine</code>。</p>
 <div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span> <span class="comment"># 👈主题名称</span></span><br></pre></td></tr></table></figure></div>
 
 <h3 id="3-配置"><a href="#3-配置" class="headerlink" title="3.配置"></a>3.配置</h3><p>为了日后实现平滑升级，在 <strong>Hexo 根目录中</strong>创建 <code>_config.redefine.yml</code> 并将<a class="link"   target="_blank" rel="noopener" href="https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml" >这里的代码 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>全部复制进去保存，以后要更改主题设置就在 <code>_config.redefine.yml</code> 里面更改。</p>
-<div class="note note-red"><p><code>config.redefine.yml</code> 永远都会覆盖主题目录下的 <code>_config.yml</code> 设置</p>
+<div class="note red"><p><code>config.redefine.yml</code> 永远都会覆盖主题目录下的 <code>_config.yml</code> 设置</p>
 </div>
 
 <h3 id="4-主题背景图"><a href="#4-主题背景图" class="headerlink" title="4.主题背景图"></a>4.主题背景图</h3><p><strong>图库连接地址:<a class="link"   target="_blank" rel="noopener" href="https://dynamicwallpaper.club/gallery" >Dynamic Wallpaper Gallery <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></p>
@@ -503,20 +503,21 @@
                      data-src="/images/2023/0411-02.png"
                       alt="img"
                 ></p>
-<h5 id="c-在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始"><a href="#c-在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始" class="headerlink" title="c. 在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始"></a>c. 在浏览器URL地址，每次修改最后目录的索引值，一般都是数字类型，从1开始</h5><p><img  
+<h5 id="c-在浏览器-URL-地址，每次修改最后目录的索引值，一般都是数字类型，从-1-开始"><a href="#c-在浏览器-URL-地址，每次修改最后目录的索引值，一般都是数字类型，从-1-开始" class="headerlink" title="c. 在浏览器 URL 地址，每次修改最后目录的索引值，一般都是数字类型，从 1 开始"></a>c. 在浏览器 URL 地址，每次修改最后目录的索引值，一般都是数字类型，从 1 开始</h5><p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/2023/0411-03.png"
                       alt="img"
                 ></p>
-<p><strong>然后你就会获取到对应时间段，不同风格的该主题图片了🎉</strong></p>
-<h3 id="5-更多-官方文档"><a href="#5-更多-官方文档" class="headerlink" title="5.更多: 官方文档"></a>5.更多: <a class="link"   target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/getting-started" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3><div class="note-large notel-yellow"><div class="notel-title"><p>提醒</p>
+<p><strong>然后你就会获取到对应时间段，不同风格的该主题图片了 🎉</strong></p>
+<h3 id="5-更多-官方文档"><a href="#5-更多-官方文档" class="headerlink" title="5.更多: 官方文档"></a>5.更多: <a class="link"   target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/getting-started" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3><div class="note-large yellow"><div class="notel-title"><p>提醒</p>
 </div><div class="notel-content"><p>推荐阅读的 <code>nodejieba</code> 这里配置有点小复杂</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install nodejieba</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>注意</strong>： Windows直接安装报错，因为缺少依赖。<br>由于nodejieba的底层算法实现是C++，所以需要安装node-gyp来编译原生C++扩展模块。</p>
+<p><strong>注意</strong>： Windows 直接安装报错，因为缺少依赖。<br>由于 nodejieba 的底层算法实现是 C++，所以需要安装 node-gyp 来编译原生 C++扩展模块。</p>
 <p>安装方法 <a class="link"   target="_blank" rel="noopener" href="http://www.notedeep.com/page/798" >http://www.notedeep.com/page/798 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>配置环境 <a class="link"   target="_blank" rel="noopener" href="https://www.jianshu.com/p/2b831714bbff" >https://www.jianshu.com/p/2b831714bbff <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
- </div></div>
+</div></div>
+
             </div>
 
             
@@ -528,7 +529,7 @@
         <li><strong>创建于:</strong> 2023-03-17 20:16:29</li>
         
             <li>
-                <strong>更新于:</strong> 2023-04-11 08:10:14
+                <strong>更新于:</strong> 2023-06-26 16:59:48
             </li>
         
         <li>
