@@ -142,7 +142,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/2023/Hexo_default.png"
+                     data-src="https://hexo.io/themes/screenshots/landscape.png"
                       alt="Hexo_default"
                 ></p>
 ]]></content>
@@ -366,7 +366,25 @@
 
 <h3 id="4-主题背景图"><a href="#4-主题背景图" class="headerlink" title="4.主题背景图"></a>4.主题背景图</h3><p><strong>图库连接地址:<a class="link"   href="https://dynamicwallpaper.club/gallery" >Dynamic Wallpaper Gallery <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></p>
 <p>在这个网站如果直接下载资源的话，图片是<code>HEIC</code>格式，这样的格式一般不好打开，也不好转换出我们对应所需要的昼夜图片，</p>
-<h4 id="我这里分享一个方法："><a href="#我这里分享一个方法：" class="headerlink" title="我这里分享一个方法："></a>我这里分享一个方法：</h4><h5 id="a-对想要下载的图片点击-分享，会弹出对话框，再从对话框点击-复制链接"><a href="#a-对想要下载的图片点击-分享，会弹出对话框，再从对话框点击-复制链接" class="headerlink" title="a. 对想要下载的图片点击 分享，会弹出对话框，再从对话框点击 复制链接"></a>a. 对想要下载的图片点击 <code>分享</code>，会弹出对话框，再从对话框点击 <code>复制链接</code></h5><h5 id="b-在新的浏览器标签页打开，然后打开开发人员工具-F12-，审查元素，获取当前图片源地址并复制它，"><a href="#b-在新的浏览器标签页打开，然后打开开发人员工具-F12-，审查元素，获取当前图片源地址并复制它，" class="headerlink" title="b. 在新的浏览器标签页打开，然后打开开发人员工具(F12)，审查元素，获取当前图片源地址并复制它，"></a>b. 在新的浏览器标签页打开，然后打开开发人员工具(F12)，审查元素，获取当前图片源地址并复制它，</h5><h5 id="c-在浏览器-URL-地址，每次修改最后目录的索引值，一般都是数字类型，从-1-开始"><a href="#c-在浏览器-URL-地址，每次修改最后目录的索引值，一般都是数字类型，从-1-开始" class="headerlink" title="c. 在浏览器 URL 地址，每次修改最后目录的索引值，一般都是数字类型，从 1 开始"></a>c. 在浏览器 URL 地址，每次修改最后目录的索引值，一般都是数字类型，从 1 开始</h5><p><strong>然后你就会获取到对应时间段，不同风格的该主题图片了 🎉</strong></p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Tips</p>
+
+    </div>
+    <div class="notel-content">
+      <ol>
+<li><p>对想要下载的图片点击 <code>分享</code>，会弹出对话框，再从对话框点击 <code>复制链接</code></p>
+</li>
+<li><p>在新的浏览器标签页打开，然后打开开发人员工具(F12)，审查元素，获取当前图片源地址并复制它，</p>
+</li>
+<li><p>在浏览器 URL 地址，每次修改最后目录的索引值，一般都是数字类型，从 1 开始</p>
+</li>
+</ol>
+<h3 id="然后你就会获取到对应时间段，不同风格的该主题图片了-🎉"><a href="#然后你就会获取到对应时间段，不同风格的该主题图片了-🎉" class="headerlink" title="然后你就会获取到对应时间段，不同风格的该主题图片了 🎉"></a><strong>然后你就会获取到对应时间段，不同风格的该主题图片了 🎉</strong></h3>
+    </div>
+  </div>
+
 <h3 id="5-更多-官方文档"><a href="#5-更多-官方文档" class="headerlink" title="5.更多: 官方文档"></a>5.更多: <a class="link"   href="https://redefine-docs.ohevan.com/getting-started" >官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></h3>
   <div class="note-large yellow">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
@@ -527,6 +545,155 @@
       <tags>
         <tag>技巧</tag>
         <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue复习笔记</title>
+    <url>/2023/12/19/Vue-day01/</url>
+    <content><![CDATA[<h3 id="Vue-是什么？"><a href="#Vue-是什么？" class="headerlink" title="Vue 是什么？"></a>Vue 是什么？</h3><p>Vue 是一个用于 <strong>构建用户界面</strong> 的 <strong>渐进式 框架</strong></p>
+<ol>
+<li><p>构建用户界面：基于 <strong>数据</strong> 动态 **渲染 ** 页面</p>
+</li>
+<li><p>渐进式：<strong>循环渐进</strong>的学习</p>
+</li>
+<li><p>框架：一套完整的项目解决方案，<strong>提升开发效率 ↑</strong>(理解记忆规则)</p>
+<p>规则&#x3D;》官网</p>
+</li>
+</ol>
+<h3 id="创建-Vue-实例，初始化渲染的核心步骤："><a href="#创建-Vue-实例，初始化渲染的核心步骤：" class="headerlink" title="创建 Vue 实例，初始化渲染的核心步骤："></a>创建 Vue 实例，初始化渲染的核心步骤：</h3><ol>
+<li>准备容器</li>
+<li>引包(官网) - 开发版本&#x2F;生产版本</li>
+<li>创建 Vue 实例 <code>new Vue()</code></li>
+<li>指定配置项 el data &#x3D;》渲染数据<ol>
+<li>el 指定挂载点，选择器指定控制是那个盒子</li>
+<li>data 提供数据</li>
+</ol>
+</li>
+</ol>
+<h3 id="插值表达式"><a href="#插值表达式" class="headerlink" title="插值表达式"></a>插值表达式</h3><ol>
+<li><p>插值表达式的作用是什么？</p>
+<p><strong>利用表达式进行插值，将数据渲染页面中</strong></p>
+</li>
+<li><p>语法格式？</p>
+</li>
+</ol>
+<p><code>&#123;&#123;表达式&#125;&#125;</code></p>
+<ol start="3">
+<li><p>插值表达式注意点：</p>
+<ol>
+<li><p>使用的数据要存在（data）</p>
+</li>
+<li><p>支持的是表达式，而非语句 if…for</p>
+</li>
+<li><p>不能在标签属性里面使用</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="Vue-响应是特性"><a href="#Vue-响应是特性" class="headerlink" title="Vue 响应是特性"></a>Vue 响应是特性</h3><ol>
+<li><p>什么是响应式呢？</p>
+<p><strong>数据改变，视图自动更新</strong></p>
+<p>使用 Vue 开发&#x3D;》专注于<strong>业务核心逻辑</strong>即可</p>
+</li>
+<li><p>如何访问或修改数据呢？</p>
+<p>data 中的数据，最终会被添加到实例上</p>
+<ol>
+<li>访问数据：<strong>“实例.属性名”</strong></li>
+<li>修改数据：<strong>“实例.属性名“&#x3D;“值”</strong></li>
+</ol>
+</li>
+</ol>
+<h3 id="指令初步认识"><a href="#指令初步认识" class="headerlink" title="指令初步认识"></a>指令初步认识</h3><ol>
+<li><p>什么是 Vue 指令呢？</p>
+<p>指令就是带有 v-前缀 的特殊 属性，不同属性对应不同的功能</p>
+<p>学习不同指令&#x3D;》解决不同业务场景需求</p>
+</li>
+<li><p>如果需要动态解析标签，可以用哪个指令？语法？</p>
+<p>v-html &#x3D; ”表达式“ &#x3D;》 动态设置元素 innerHTML</p>
+</li>
+</ol>
+<h2 id="Vue-指令"><a href="#Vue-指令" class="headerlink" title="Vue 指令"></a>Vue 指令</h2><h3 id="v-show"><a href="#v-show" class="headerlink" title="v-show"></a><strong>v-show</strong></h3><ol>
+<li><p>作用：控制元素显示隐藏</p>
+</li>
+<li><p>语法：v-show&#x3D;”表达式” 表达式值 true 显示，false 隐藏</p>
+</li>
+<li><p>原理：切换 display：none 控制显示隐藏</p>
+</li>
+<li><p>场景：频繁切换显示隐藏的场景(购物车显示与隐藏)</p>
+</li>
+</ol>
+<h3 id="v-if"><a href="#v-if" class="headerlink" title="v-if"></a><strong>v-if</strong></h3><ol>
+<li><p>作用：控制元素显示隐藏（条件渲染）</p>
+</li>
+<li><p>语法：v-if &#x3D; “表达式” 表达式值 true 显示，false 隐藏</p>
+</li>
+<li><p>原理：基于条件判断，是否 创建 或 移除 元素节点</p>
+</li>
+<li><p>场景：要么显示，要么隐藏，不频繁切换的场景（请登录页面）</p>
+</li>
+</ol>
+<h3 id="v-else-v-else-if"><a href="#v-else-v-else-if" class="headerlink" title="v-else v-else-if"></a><strong>v-else v-else-if</strong></h3><ol>
+<li><p>作用：辅助 v-if 进行判断渲染</p>
+</li>
+<li><p>语法 v-else v-else-if&#x3D;“表达式”</p>
+</li>
+<li><p>注意：需要紧挨着 v-if 一起使用(不能单独使用)</p>
+</li>
+</ol>
+<h3 id="v-on"><a href="#v-on" class="headerlink" title="v-on"></a><strong>v-on</strong></h3><ol>
+<li><p>作用：注册事件 &#x3D; 添加监听 + 提供处理逻辑</p>
+</li>
+<li><p>语法：</p>
+<ol>
+<li>v-on:事件名&#x3D;“内联语句” <code> eg：v-on:click=&quot;number++&quot;</code></li>
+<li>v-on&#x3D;事件名&#x3D;“methods 中的函数名”</li>
+</ol>
+</li>
+<li><p>简写 “v-on:” 等价于“ @”</p>
+</li>
+</ol>
+<h3 id="v-on-调用传参"><a href="#v-on-调用传参" class="headerlink" title="v-on 调用传参"></a><strong>v-on 调用传参</strong></h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;button @click=&quot;fn(10)&quot;&gt;咖啡10元&lt;/button&gt;</span><br><span class="line">//--------------------------------- methods: &#123; // 提供逻辑处理函数 fn(a) &#123;</span><br><span class="line">this.money = this.money - a &#125;, &#125;</span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h3 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a><strong>v-bind</strong></h3><ol>
+<li>作用：动态的设置 html 的标签属性 &#x3D;》src url title …</li>
+<li>语法：v-bind:属性名 &#x3D;”表达式“</li>
+<li>简写：:属性名&#x3D;“表达式” eg：<code>v-bind:src=&#39;&#39;</code> 等价于<code> :src=&#39;&#39;</code></li>
+</ol>
+<h3 id="v-for"><a href="#v-for" class="headerlink" title="v-for"></a><strong>v-for</strong></h3><ol>
+<li><p>作用：基于数据循环，多次渲染整个元素 &#x3D;》数组、对象、数字</p>
+</li>
+<li><p>遍历数组语法：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">v-for=&quot;(item,index) in 数组&quot; 注意空格 item 每一项，index 下标</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>简写：如果不用 index 的话可以省略 <strong>index</strong> <code>v-for=&#39;item in 数组&#39;</code></p>
+</li>
+</ol>
+<h3 id="v-for-中的-key"><a href="#v-for-中的-key" class="headerlink" title="v-for 中的 key"></a><strong>v-for 中的 key</strong></h3><ol>
+<li>语法：<strong>key 属性 &#x3D; “唯一标识”</strong></li>
+<li>作用：给列表项添加唯一标识。便于 Vue 进行列表项的<strong>正确排序复用</strong></li>
+<li>注意点：<ol>
+<li>key 的值只能是 字符串 或 数字类型</li>
+<li>key 的值必须具有 唯一性</li>
+<li>推荐使用 id 作为 key (唯一) ，不推荐使用 index 作为 key (会变化，不对应)</li>
+</ol>
+</li>
+</ol>
+<h3 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a><strong>v-model</strong></h3><ol>
+<li>作用：给 表单元素 使用，双向数据绑定 &#x3D;》可以快速 获取 或 设置表单元素内容<ol>
+<li>数据变化 &#x3D;》视图自动更新</li>
+<li>视图变化 &#x3D;》数据自动更新</li>
+</ol>
+</li>
+<li>语法：v-model&#x3D;’变量‘</li>
+</ol>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Vue</tag>
       </tags>
   </entry>
 </search>
