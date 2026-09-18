@@ -1,0 +1,17 @@
+- links_category: (✿◕‿◕✿) #分类名称
+  has_thumbnail: false #是否显示网站大图
+  list:
+    - name: EvanNotFound
+      link: https://redefine.ohevan.com/2022/10/02/theme-demo/
+      description: 香港记者月底加急
+      avatar: https://evan.beee.top/avatar.png
+    - name: 无名喵站
+      link: http://smmcat.cn/
+      description: 腐喵的个人笔记
+      avatar: http://smmcat.cn/wp-content/uploads/2021/05/cropped-头像.png
+      thumbnail: https://smmcat.cn/wp-content/uploads/2023/06/banner-2048x1152.jpg
+    - name: 飞奕豪科技有限公司
+      link: http://www.xn--wnym14c.cn/
+      description: 飞奕豪公司网站
+      avatar: http://www.xn--wnym14c.cn/static/img/logo.64a59269.png
+    - name: 期待你加入

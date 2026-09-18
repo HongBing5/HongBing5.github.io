@@ -1,0 +1,306 @@
+﻿[32mINFO [39m Validating config
+[32mINFO [39m Start processing
+node.exe : [43mWARN [49m [redefine] Config deprecation: `home_banner.social_links.links` and `home_banner.social_link
+s.qrs` object-map format is deprecated; use array items instead. Object-map ordering is unstable due to Hexo config mer
+ge behavior and will be removed in the next major release.
+所在位置 C:\Users\HB\AppData\Roaming\npm\hexo.ps1:24 字符: 5
++     & "node$exe"  "$basedir/node_modules/hexo-cli/bin/hexo" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([43mWARN [49m... major release.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[43mWARN [49m [redefine] Tag deprecation: `{% notel %}` is deprecated and will be removed in the next major release; 
+use `{% callout type="..." title="..." %}` instead. Read documentation: https://redefine-docs.ohevan.com/zh/docs/module
+s/callout
+[43mWARN [49m [redefine] Tag deprecation: `{% note %}` is deprecated and will be removed in the next major release; u
+se `{% callout type="..." %}` instead. Read documentation: https://redefine-docs.ohevan.com/zh/docs/modules/callout
+[32mINFO [39m Files loaded in [36m503 ms[39m
+[32mINFO [39m 
+      +======================================================================================+
+      |                                                                                      |
+      |    _____ _   _ _____ __  __ _____   ____  _____ ____  _____ _____ ___ _   _ _____    |
+      |   |_   _| | | | ____|  \/  | ____| |  _ \| ____|  _ \| ____|  ___|_ _| \ | | ____|   |
+      |     | | | |_| |  _| | |\/| |  _|   | |_) |  _| | | | |  _| | |_   | ||  \| |  _|     |
+      |     | | |  _  | |___| |  | | |___  |  _ <| |___| |_| | |___|  _|  | || |\  | |___    |
+      |     |_| |_| |_|_____|_|  |_|_____| |_| \_\_____|____/|_____|_|   |___|_| \_|_____|   |
+      |                                                                                      |
+      |                            current v2.9.0  latest v2.9.0                             |
+      |                  https://github.com/EvanNotFound/hexo-theme-redefine                 |
+      +======================================================================================+
+                      
+[32mINFO [39m [32m[redefine] CDN available: NPMMirror (Recommended)[0m
+[32mINFO [39m [32m[redefine] CDN available: ZStatic[0m
+[32mINFO [39m [32m[redefine] CDN available: CDNJS[0m
+[32mINFO [39m Generated: [35mmasonry/data.json[39m
+[32mINFO [39m Generated: [35msitemap.txt[39m
+[32mINFO [39m Generated: [35msitemap.xml[39m
+[32mINFO [39m Generated: [35marchives/index.html[39m
+[32mINFO [39m Generated: [35msearch.json[39m
+[32mINFO [39m Generated: [35mcategories/index.html[39m
+[32mINFO [39m Generated: [35mlinks/index.html[39m
+[32mINFO [39m Generated: [35mtags/index.html[39m
+[32mINFO [39m Generated: [35mabout/index.html[39m
+[32mINFO [39m Generated: [35mcategories/杞欢/index.html[39m
+[32mINFO [39m Generated: [35mcategories/AI缁樼敾/index.html[39m
+[32mINFO [39m Generated: [35mcategories/缂栫▼/index.html[39m
+[32mINFO [39m Generated: [35mcategories/鎻掍欢/index.html[39m
+[32mINFO [39m Generated: [35marchives/2023/04/index.html[39m
+[32mINFO [39m Generated: [35marchives/2023/03/index.html[39m
+[32mINFO [39m Generated: [35marchives/2023/index.html[39m
+[32mINFO [39m Generated: [35marchives/2023/05/index.html[39m
+[32mINFO [39m Generated: [35marchives/2023/06/index.html[39m
+[32mINFO [39m Generated: [35mtags/鎶€宸?index.html[39m
+[32mINFO [39m Generated: [35mtags/缃戠粶/index.html[39m
+[32mINFO [39m Generated: [35mtags/绗旇/index.html[39m
+[32mINFO [39m Generated: [35m404.html[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-v4compatibility.ttf[39m
+[32mINFO [39m Generated: [35mimages/hb-avatar.jpg[39m
+[32mINFO [39m Generated: [35mcss/layout/archive-content.css[39m
+[32mINFO [39m Generated: [35mmasonry/index.html[39m
+[32mINFO [39m Generated: [35mcss/hbe.style.css[39m
+[32mINFO [39m Generated: [35mindex.html[39m
+[32mINFO [39m Generated: [35mrobots.txt[39m
+[32mINFO [39m Generated: [35mimages/bookmark-placeholder.svg[39m
+[32mINFO [39m Generated: [35mimages/redefine-logo.svg[39m
+[32mINFO [39m Generated: [35mimages/loading.svg[39m
+[32mINFO [39m Generated: [35mimages/redefine-favicon.svg[39m
+[32mINFO [39m Generated: [35mimages/redefine-logo.webp[39m
+[32mINFO [39m Generated: [35mimages/redefine-avatar.svg[39m
+[32mINFO [39m Generated: [35mimages/wallhaven-wqery6-dark.webp[39m
+[32mINFO [39m Generated: [35mimages/redefine-og.webp[39m
+[32mINFO [39m Generated: [35mimages/wallhaven-wqery6-light.webp[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-v4compatibility.woff2[39m
+[32mINFO [39m Generated: [35mfontawesome/brands.min.css[39m
+[32mINFO [39m Generated: [35massets/odometer-theme-minimal.css[39m
+[32mINFO [39m Generated: [35mjs/build.js[39m
+[32mINFO [39m Generated: [35mcss/common/basic.css[39m
+[32mINFO [39m Generated: [35mcss/common/colors.css[39m
+[32mINFO [39m Generated: [35mfonts/Geist/geist.css[39m
+[32mINFO [39m Generated: [35mfonts/Chillax/chillax.css[39m
+[32mINFO [39m Generated: [35mfonts/GeistMono/geist-mono.css[39m
+[32mINFO [39m Generated: [35mcss/build/tailwind.css[39m
+[32mINFO [39m Generated: [35mjs/app/lifecycle.js[39m
+[32mINFO [39m Generated: [35mjs/layouts/bookmarkNav.js[39m
+[32mINFO [39m Generated: [35mjs/build/utils.js[39m
+[32mINFO [39m Generated: [35mjs/libs/APlayer.min.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/aplayer.js[39m
+[32mINFO [39m Generated: [35mjs/utils/sideTools.js[39m
+[32mINFO [39m Generated: [35mjs/tools/codeBlock.js[39m
+[32mINFO [39m Generated: [35mjs/state/styleStatus.js[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/code-block.css[39m
+[32mINFO [39m Generated: [35mjs/build/app/lifecycle.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/bookmarkNav.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/Swup.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/aplayer.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/codeBlock.js[39m
+[32mINFO [39m Generated: [35mjs/build/utils/layout.js[39m
+[32mINFO [39m Generated: [35mjs/build/state/styleStatus.js[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-brands-400.woff2[39m
+[32mINFO [39m Generated: [35marchives/2023/page/2/index.html[39m
+[32mINFO [39m Generated: [35mpage/2/index.html[39m
+[32mINFO [39m Generated: [35marchives/page/2/index.html[39m
+[32mINFO [39m Generated: [35massets/hbe.style.css[39m
+[32mINFO [39m Generated: [35mfontawesome/thin.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/light.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/solid.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/svg-with-js.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/sharp-solid.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/regular.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/v4-font-face.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/v5-font-face.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/v4-shims.min.css[39m
+[32mINFO [39m Generated: [35mcss/tailwind.source.css[39m
+[32mINFO [39m Generated: [35mcss/style.css[39m
+[32mINFO [39m Generated: [35mfontawesome/fontawesome.min.css[39m
+[32mINFO [39m Generated: [35mjs/main.js[39m
+[32mINFO [39m Generated: [35mcss/common/animated.css[39m
+[32mINFO [39m Generated: [35mjs/utils.js[39m
+[32mINFO [39m Generated: [35mfontawesome/all.min.css[39m
+[32mINFO [39m Generated: [35mfontawesome/duotone.min.css[39m
+[32mINFO [39m Generated: [35mcss/common/markdown.css[39m
+[32mINFO [39m Generated: [35mcss/common/theme.css[39m
+[32mINFO [39m Generated: [35mcss/common/redefine-theme.css[39m
+[32mINFO [39m Generated: [35mcss/layout/article-content.css[39m
+[32mINFO [39m Generated: [35mcss/common/variables.css[39m
+[32mINFO [39m Generated: [35mcss/layout/bookmarks.css[39m
+[32mINFO [39m Generated: [35mcss/layout/home-sidebar.css[39m
+[32mINFO [39m Generated: [35mcss/layout/animations.css[39m
+[32mINFO [39m Generated: [35mcss/layout/page.css[39m
+[32mINFO [39m Generated: [35mcss/layout/category-content.css[39m
+[32mINFO [39m Generated: [35mcss/layout/category-list.css[39m
+[32mINFO [39m Generated: [35mjs/app/pageScope.js[39m
+[32mINFO [39m Generated: [35mcss/layout/tag-content.css[39m
+[32mINFO [39m Generated: [35mjs/layouts/categoryList.js[39m
+[32mINFO [39m Generated: [35mcss/layout/home-content.css[39m
+[32mINFO [39m Generated: [35mjs/layouts/essays.js[39m
+[32mINFO [39m Generated: [35mjs/layouts/navbarShrink.js[39m
+[32mINFO [39m Generated: [35mjs/build/main.js[39m
+[32mINFO [39m Generated: [35mjs/layouts/homeBanner.js[39m
+[32mINFO [39m Generated: [35mjs/layouts/lazyload.js[39m
+[32mINFO [39m Generated: [35mjs/layouts/toc.js[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupProgressPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/Swup.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupScriptsPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupScrollPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupPreloadPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupSlideTheme.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/Typed.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/anime.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/minimasonry.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/exif-reader.js[39m
+[32mINFO [39m Generated: [35mjs/libs/odometer.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/pjax.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/pangu.min.js[39m
+[32mINFO [39m Generated: [35mjs/libs/moment.min.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/pangu.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/masonry.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/mermaid.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/tabs.js[39m
+[32mINFO [39m Generated: [35mjs/libs/moment-with-locales.min.js[39m
+[32mINFO [39m Generated: [35mjs/plugins/typed.js[39m
+[32mINFO [39m Generated: [35mjs/utils/layout.js[39m
+[32mINFO [39m Generated: [35mjs/tools/expirationDate.js[39m
+[32mINFO [39m Generated: [35mjs/libs/waline.js[39m
+[32mINFO [39m Generated: [35mjs/tools/localSearch.js[39m
+[32mINFO [39m Generated: [35mjs/tools/imageViewer.js[39m
+[32mINFO [39m Generated: [35mjs/utils/scroll.js[39m
+[32mINFO [39m Generated: [35mjs/tools/scrollTopBottom.js[39m
+[32mINFO [39m Generated: [35mjs/tools/tocToggle.js[39m
+[32mINFO [39m Generated: [35mjs/tools/lightDarkSwitch.js[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/code-theme.css[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/highlight.css[39m
+[32mINFO [39m Generated: [35mjs/tools/runtime.js[39m
+[32mINFO [39m Generated: [35mjs/build/app/pageScope.js[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-brands-400.ttf[39m
+[32mINFO [39m Generated: [35mjs/libs/Swup.min.js.map[39m
+[32mINFO [39m Generated: [35mfonts/Chillax/Chillax-Variable.ttf[39m
+[32mINFO [39m Generated: [35mfonts/Chillax/Chillax-Variable.eot[39m
+[32mINFO [39m Generated: [35mjs/build/app/once.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/essays.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/categoryList.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/homeBanner.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/lazyload.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/toc.js[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/navbarShrink.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/SwupPreloadPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/SwupSlideTheme.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/SwupProgressPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/APlayer.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/SwupScriptsPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/SwupScrollPlugin.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/Typed.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/anime.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/minimasonry.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/odometer.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/exif-reader.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/pangu.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/pjax.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/moment.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/moment-with-locales.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/masonry.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/hbe.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/mermaid.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/pangu.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/waline.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/typed.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/expirationDate.js[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/tabs.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/lightDarkSwitch.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/runtime.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/imageViewer.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/scrollTopBottom.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/tocToggle.js[39m
+[32mINFO [39m Generated: [35mjs/build/tools/localSearch.js[39m
+[32mINFO [39m Generated: [35mjs/build/utils/sideTools.js[39m
+[32mINFO [39m Generated: [35mjs/build/utils/scroll.js[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/light/default.css[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-sharp-solid-900.woff2[39m
+[32mINFO [39m Generated: [35mjs/libs/APlayer.min.js.map[39m
+[32mINFO [39m Generated: [35mfonts/Chillax/Chillax-Variable.woff[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/agate.css[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-solid-900.woff2[39m
+[32mINFO [39m Generated: [35mfonts/Geist/GeistVF.woff2[39m
+[32mINFO [39m Generated: [35mfonts/Chillax/Chillax-Variable.woff2[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/light/github.css[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/light/atom-one-light.css[39m
+[32mINFO [39m Generated: [35mfonts/GeistMono/GeistMonoVF.woff2[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/a11y-dark.css[39m
+[32mINFO [39m Generated: [35mjs/build/utils.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/main.js.map[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupPreloadPlugin.min.js.map[39m
+[32mINFO [39m Generated: [35mjs/libs/SwupScrollPlugin.min.js.map[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/night-owl.css[39m
+[32mINFO [39m Generated: [35mjs/plugins/hbe.js[39m
+[32mINFO [39m Generated: [35mjs/build/app/pageScope.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/app/lifecycle.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/app/once.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/bookmarkNav.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/categoryList.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/essays.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/lazyload.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/homeBanner.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/hbe.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/toc.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/masonry.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/aplayer.js.map[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/github-dark.css[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/mermaid.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/pangu.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/tabs.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/plugins/typed.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/layouts/navbarShrink.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/codeBlock.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/imageViewer.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/expirationDate.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/runtime.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/lightDarkSwitch.js.map[39m
+[32mINFO [39m Generated: [35mfonts/Geist/GeistVF.ttf[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/monokai-sublime.css[39m
+[32mINFO [39m Generated: [35mfonts/GeistMono/GeistMonoVF.ttf[39m
+[32mINFO [39m Generated: [35mjs/build/tools/tocToggle.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/tools/localSearch.js.map[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/atom-one-dark.css[39m
+[32mINFO [39m Generated: [35mfonts/GeistMono/GeistMonoVF.woff[39m
+[32mINFO [39m Generated: [35mfonts/Geist/GeistVF.woff[39m
+[32mINFO [39m Generated: [35mjs/build/state/styleStatus.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/utils/sideTools.js.map[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/nord.css[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/vs2015.css[39m
+[32mINFO [39m Generated: [35mjs/build/utils/layout.js.map[39m
+[32mINFO [39m Generated: [35mcss/common/codeblock/hljs-themes/dark/tokyo-night-dark.css[39m
+[32mINFO [39m Generated: [35mjs/build/tools/scrollTopBottom.js.map[39m
+[32mINFO [39m Generated: [35mjs/build/utils/scroll.js.map[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-duotone-900.woff2[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-light-300.woff2[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-regular-400.woff2[39m
+[32mINFO [39m Generated: [35m2023/05/04/Wget鐨勫熀鏈娇鐢?index.html[39m
+[32mINFO [39m Generated: [35m2023/04/01/娴忚鍣ㄦ帹鑽愭彃浠?index.html[39m
+[32mINFO [39m Generated: [35m2023/03/31/甯︽湅鍙嬫梾琛屼笘鐣?index.html[39m
+[32mINFO [39m Generated: [35m2023/06/17/nvm浠嬬粛/index.html[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-thin-100.woff2[39m
+[32mINFO [39m Generated: [35m2023/03/28/鏌ョ湅Wifi瀵嗙爜/index.html[39m
+[32mINFO [39m Generated: [35m2023/03/30/telegram涓嬭浇鍜屼娇鐢?index.html[39m
+[32mINFO [39m Generated: [35mjs/libs/exif-reader.js.map[39m
+[32mINFO [39m Generated: [35m2023/03/24/Diffusion/index.html[39m
+[32mINFO [39m Generated: [35m2023/03/23/Clash鐨勪娇鐢?index.html[39m
+[32mINFO [39m Generated: [35m2023/03/20/B绔欒棰戜笅杞芥暀绋?index.html[39m
+[32mINFO [39m Generated: [35mjs/libs/mermaid.min.js[39m
+[32mINFO [39m Generated: [35mjs/build/libs/mermaid.min.js[39m
+[32mINFO [39m Generated: [35m2023/03/17/Hexo鍗氬鎼缓涔嬩慨鏀逛富棰?index.html[39m
+[32mINFO [39m Generated: [35m2023/03/15/hello-world/index.html[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-sharp-solid-900.ttf[39m
+[32mINFO [39m Generated: [35mimages/bg_dark.webp[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-solid-900.ttf[39m
+[32mINFO [39m Generated: [35mimages/bg_light.webp[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-regular-400.ttf[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-light-300.ttf[39m
+[32mINFO [39m Generated: [35mjs/libs/waline.js.map[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-thin-100.ttf[39m
+[32mINFO [39m Generated: [35mwebfonts/fa-duotone-900.ttf[39m
+[32mINFO [39m Generated: [35mimages/gallery/photo3.jpg[39m
+[32mINFO [39m Generated: [35mimages/gallery/photo1.JPG[39m
+[32mINFO [39m Generated: [35mimages/gallery/photo4.jpg[39m
+[32mINFO [39m Generated: [35mimages/gallery/photo2.JPG[39m
+[32mINFO [39m Generated: [35mimages/hongbing.jpg[39m
+[32mINFO [39m Generated: [35mjs/libs/mermaid.min.js.map[39m
+[32mINFO [39m 272 files generated in [36m7.53 s[39m

@@ -1,0 +1,16 @@
+# - image: https://imgapi.cn/api.php
+#   title: 美女
+#   description: 三千之图：随机图片调用接口
+
+- image: /images/gallery/photo1.JPG
+  title: 坐看世界八大奇迹的狮子岩
+  description: 
+- image: /images/gallery/photo2.JPG
+  title: Negombo的小河
+  description: 
+- image: /images/gallery/photo3.jpg
+  title: Mirissa 观鲸
+  description: 
+- image: /images/gallery/photo4.jpg
+  title: Mirissa 海滩
+  description: 

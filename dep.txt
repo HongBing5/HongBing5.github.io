@@ -1,0 +1,13 @@
+﻿
+[32mINFO [39m Validating config
+[32mINFO [39m Deploying: [35mgit[39m
+[32mINFO [39m Clearing .deploy_git folder...
+[32mINFO [39m 
+[32mINFO [39m [32m[redefine] CDN available: NPMMirror (Recommended)[0m
+[32mINFO [39m [32m[redefine] CDN available: ZStatic[0m
+[32mINFO [39m [32m[redefine] CDN available: CDNJS[0m
+[32mINFO [39m Copying files from public folder...
+[32mINFO [39m Copying files from extend dirs...
+[33mError: Spawn failed
+
+
